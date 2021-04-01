@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+    <head>
+<title>Flexbox_Task</title>
+<style>
+    .section{
+        display:flex;
+        justify-content:center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .flex1{
+        background-color: grey;
+        flex:1;
+        margin:10px;
+    }
+
+    .flex2{
+        background-color:red;
+        flex:2;
+        margin:10px;
+    }
+
+    .flex3{
+        flex:1;
+        background-color: cyan;
+    }
+
+    .section div{
+        flex:1;
+        margin:5px;
+        padding:10px;
+        text-align: center;
+    }
+
+    img{
+        height: 500px;
+        width:500px;
+        border:2px solid brown;
+        padding: 2px;
+    }
+
+
+</style>
+    </head>
+    <body>
+        <div class="section">
+<div class="flex1">Element2</div>
+<div class="flex2">Element2</div>
+<div class="flex1">Element2</div>
+        </div>
+
+        <div class="section">
+<div class="flex1">Element1</div>
+<div class="flex1">Element2</div>
+        </div>
+
+        <div class="section">
+<div class="flex1">Element1
+<div class="section" >
+<div class="flex3" >
+    <img src="https://specials-images.forbesimg.com/imageserve/5e7d461008eb08000651fce9/960x0.jpg?fit=scale">
+</div>
+<div class="flex1"><p>Haribo</p></div>
+</div>
+</div>
+<div class="flex1">Element2</div>
+        </div>
+
+    </body>
+</html>

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>CSS Task 1</title>
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+        <style>
+            #id-1{
+                font-size: 32px;
+                font-weight: bold;
+                text-transform: uppercase;
+                font-family: 'Dancing Script', Arial, cursive; /* Define a font from google fonts and a fallback font */
+                /*text-decoration: underline;*/
+                letter-spacing: 6px;
+            }
+            .sub-p-italic{
+                font-style: italic;
+            }
+            .main-navigation{
+                list-style-type: none; /* Delte the black dots */
+            }
+            .main-navigation li{
+                display: inline-block; /* Display the UL beside  */
+                margin: 0 10px; /* Add space between the Items */
+            }
+            .main-navigation li a{
+                text-decoration: none; /* Delete the underline in the a Tag */
+                color: lightblue;
+                background-color: darkblue;
+                border: 2px solid lightblue;
+                padding: 3px 10px; /* Original padding*/
+                border-radius: 15px; /* Make rounded corners */
+            } 
+            .main-navigation li a:hover{ /* This is a PSEUDO Class with :hover */
+                color:darkblue;
+                background-color: lightblue;
+                border: 2px solid darkblue;
+                padding: 5px 13px; /* Change the original padding*/
+                font-weight: bold;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Das ist eine Überschrift</h1>
+        <p id="id-1">
+            <span class="sub-p-italic">This a </span>
+            a paragraph.
+        </p>
+        <p>Das ist ein anderer Paragraph.</p>
+        <p class="class-1">Das ist ein weiter Paragraph</p>
+        <ul class="main-navigation">
+            <li>
+                <a href="">Home</a>
+            </li>
+            <li>
+                <a href="product.html">Product</a>
+            </li>
+            <li>
+                <a href="contact.html">Contact</a>
+            </li>
+        </ul>
+    </body>
+</html>
